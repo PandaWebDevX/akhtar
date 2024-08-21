@@ -9,14 +9,14 @@
 @media only screen and (max-width:480px){
     .head{
     
-        width:100vw;
+        width:100%;
         
         background-color:rgb(3, 250, 159);
         display: flex;
         height: 40px;
         align-items: center;
     flex-wrap: wrap;
-    margin: auto;
+    
     
     }
     .head span{
