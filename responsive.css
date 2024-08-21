@@ -9,7 +9,7 @@
 @media only screen and (max-width:480px){
     .head{
     
-        width:100%;
+        width:100vw;
         
         background-color:rgb(3, 250, 159);
         display: flex;
@@ -72,6 +72,7 @@
         position: fixed;
         width: 100vw;
         height: 10vh;
+        align-self: center;
     }
     .logo{
         font-size: 30px;
