@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.head{
+    /* border: 2px solid red; */
+    background-color:lightgreen;
+    display: flex;
+    height: 40px;
+    align-items: center;
+flex-wrap: wrap;
+}
+.head span{
+    color:black;
+}
+
+.right{
+    /* border: 2px solid red; */
+    transform: translateX(890px);
+    margin: 0px 20px;
+}
+.right span:nth-child(1){
+    border-right: 3px solid black;
+    padding: 2px 10px;
+    height: 20px;
+    width: 50px;
+
+}
+.right span:nth-child(2){
+    padding: 5px 5px;
+
+}
+.left{
+    transform: translateX(30px); 
+}
+/* header section is end here */
+
+.nav{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    font-size: 40px;
+    font-weight: bolder;
+    transform: translateX(20px);
+    padding: 10px 0;
+}
+.icon{
+    font-size: 30px;
+    transform: translateX(-20px);
+}
+.navigation ul{
+    display: flex;
+    width: 65vw;
+    justify-content: space-between;
+    
+}
+.navigation ul li{
+    list-style: none;
+}
+/*  navigation end here */
+
+.template{
+
+    /* border: 2px solid red; */
+    height: 60vh;
+    width: 100vw;
+    background-image: url(img/template-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -75px;
+
+
+}
+/* template section end here  */
+.sale{
+    border: 2px solid red;
+    height: 15vh;
+    width: 80vw;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: rgba(128, 0, 128, 0.801);
+}
+.sale-off{
+    border-right: 5px dotted red;
+    width: 20%;
+    height: 13vh;
+    margin: 5px 0px;
+    background-image: url(img/50-off-png-16008.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sale-main{
+    /* border: 2px solid red; */
+    position: relative;
+    top: -68px;
+    margin: auto;
+    left: 100px;
+    width: 60vw;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+
+
+}
+.fifty{position: relative;
+    
+    animation: sale 3s infinite linear;
+    
+}
+@keyframes sale {
+    0%,100%{
+        color:red;
+        
+    }
+    25%{
+        color: rgb(38, 227, 227);
+        margin-left: -120px;
+        
+    }
+    50%{
+        color: aquamarine;
+        
+    }
+    75%{
+        color: blueviolet;
+        margin-left: 120px;
+    }
+    
+}
