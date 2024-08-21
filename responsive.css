@@ -8,8 +8,8 @@
     .head{
         /* border: 2px solid red; */
         width:100vw;
-        margin-left: -400px;
-        background-color:rgb(25, 3, 11);
+        
+        background-color:rgb(3, 250, 159);
         display: flex;
         height: 40px;
         align-items: center;
@@ -23,22 +23,23 @@
     
     .right{
         /* border: 2px solid red; */
-        transform: translateX(0px);
-        margin: 0px 0px;
+        transform: translateX(120px);
+        margin: 0px -15px;
+        
     }
     .right span:nth-child(1){
         border-right: 3px solid black;
-         padding: 0px 0px;
+         padding: 0px 10px;
         height: 0px;
         width: 0px;
      
     }
     .right span:nth-child(2){
-        padding: 0px 0px;
+        padding: 0px 10px;
     
     }
     .left{
-        transform: translateX(0px); 
+        transform: translateX(20px); 
     }
 
 
