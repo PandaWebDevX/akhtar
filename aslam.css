@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+.hide{
+    /* display: none; */
+}
 .head{
     /* border: 2px solid red; */
     background-color:lightgreen;
@@ -58,6 +61,7 @@ flex-wrap: wrap;
     display: flex;
     width: 65vw;
     justify-content: space-between;
+    /* display: none; */
     
 }
 .navigation ul li{
