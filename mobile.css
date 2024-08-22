@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+
+@media  screen and (max-width:580px) {
+ 
+    .header{
+        display: none;
+    }
+    
+}
