@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 
-/*  head */
+ /* head */
 @media only screen and (max-width:600px){
     .head{
     
@@ -142,15 +142,17 @@
     
     
 }
-.navigation.active{position: relative;
-    transform: translate(170px,220px);
-    background-color: brown;
+.navigation.active{
     height: 100vh;
-    width: 70vw;
+    width: 100%;
+    transform: translate(0px,260px);
+    background-color: rgb(35, 98, 234);
+    
     transition: 1s ease;
-    left: -130px;
+    /* left: -130px; */
     color: black;
     z-index: 29;
+    
     
     
    
@@ -221,7 +223,7 @@
         /* background-position: 0px -75px; */
         z-index: 1;
     
-    
+    display: none;
     }
     .template.active{
         transition: 3s ease;
