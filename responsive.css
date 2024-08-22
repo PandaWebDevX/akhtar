@@ -6,7 +6,7 @@
 }
 
 /*  head */
-@media only screen and (max-width:480px){
+@media only screen and (max-width:600px){
     .head{
     
         width:100vw;
@@ -16,6 +16,7 @@
         height: 40px;
         align-items: center;
     flex-wrap: wrap;
+    display: none;
     
     
     }
@@ -59,7 +60,7 @@
 
 
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:600px) {
     .icon{
         display: flex;
         position: relative;
@@ -73,6 +74,8 @@
         width: 100vw;
         height: 10vh;
         align-self: center;
+        background-color: white;
+        z-index: 7;
     }
     .logo{
         font-size: 30px;
@@ -207,15 +210,16 @@
     .template{
 
         border: 2px solid red;
-        height: 70vh;
+        height: 170vh;
         width: 100vw;
         background-image: url(img/template-1.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        transform: translateY(160px);
-        overflow: hidden;
+        transform: translateY(10vh);
+        /* overflow: hidden; */
         /* background-position: 0px -75px; */
+        z-index: 1;
     
     
     }
