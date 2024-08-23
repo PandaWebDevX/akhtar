@@ -132,9 +132,9 @@ width: 80%;
 font-size: 7vh;
 color: white;
 text-align: center;
-animation:ak 5s linear infinite;
-border-left:2px solid green ;
-border-right:2px solid green ;
+animation:ak 3s linear infinite;
+/* border-left:2px solid green ;
+border-right:2px solid green ; */
 }
 
 
@@ -145,26 +145,26 @@ border-right:2px solid green ;
         color: white;
        /* transform: translatey(5px) rotate(2deg); */
        padding: 0%;
-       border-left:3px solid red ;
-border-right:3px solid green ;
+       /* border-left:3px solid red ;
+border-right:3px solid green ; */
 border-radius: 3px;
     }
     50%{
         color: red;
         /* transform: translatey(0px) rotate(0deg); */
         padding: 0%;
-        padding-left: 44.4%;
-        border-left:3px solid green ;
-border-right:3px solid red ;
+        padding-left: 4%;
+        /* border-left:3px solid green ;
+border-right:3px solid red ; */
 border-radius: 3px;
     }
     75%{
         /* color: blueviolet; */
         /* transform: translatey(5px) rotate(-2deg); */
         padding: 0%;
-        padding-right: 44.4%;
-        border-left:3px solid red ;
-        border-right:3px solid green ;
+        padding-right: 4%;
+        /* border-left:3px solid red ;
+        border-right:3px solid green ; */
         color: green;
         border-radius: 3px;
     }
