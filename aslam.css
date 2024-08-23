@@ -72,3 +72,60 @@
     z-index: 1;
     margin-top: 20px;
 }
+
+/* navigation end here */
+
+
+.home-content{
+    border: 2px solid red;
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 4%;
+    justify-content: center;
+    gap: 5%;
+}
+
+.home-btn-jeans{
+    border: 2px solid red;
+    border-radius: 30px;
+ height: 6vh;
+ width: 6%;
+text-align: center;
+padding-top: 6.5px;
+
+
+}
+.home-btn-jeans.active{
+    background-color: black;
+    color: white;
+}
+
+.home-btn-shirt.active{
+    background-color: black;
+    color: white;
+}
+
+.home-btn-polo.active{
+    background-color: black;
+    color: white;
+}
+
+.home-btn-polo{
+    border: 2px solid red;
+    border-radius: 30px;
+    height: 6vh;
+ width: 6%;
+ text-align: center;
+ padding-top: 6.5px;
+}
+.home-btn-shirt{
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 30px;
+    height: 6vh;
+ width: 6%;
+ padding-top: 6.5px;
+}
