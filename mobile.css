@@ -10,5 +10,8 @@
     .header{
         display: none;
     }
+    .navigation{
+        display: none;
+    }
     
 }
