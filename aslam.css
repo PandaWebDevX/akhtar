@@ -49,6 +49,9 @@
     z-index: 999;
     background-color: white;
 }
+.slide{
+    display: none;
+}
 
 .navigation ul{
 
