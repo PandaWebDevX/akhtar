@@ -15,6 +15,10 @@
         height: 9vh;
         background-color: red;
     }
+    .nav.active{
+        background-color: white;
+        transition: .3s;
+    }
     .navigation{
         display: none;
     }
@@ -55,21 +59,27 @@
     }
 
 
+.ham.active{
+  
+    transform: translateY(-10px);
+    
+    
+}
 
 
-/* 
-    .bar:nth-child(1){
+    .bar-1.active{
         
         transform: translateY(23px) rotate(45deg);
+        transition: .2s;
     }
-    .bar:nth-child(3){
+    .bar-3.active{
         transform: rotate(-45deg);
-
+        transition: .2s;
     }
-    .bar:nth-child(2){
+    .bar-2.active{
         visibility: hidden;
     }
- */
+ 
 
 
 
