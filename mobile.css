@@ -128,12 +128,13 @@ font-weight: 800;
 .logo.active{
 
 /* border: 2px solid red; */
-width: 100%;
+width: 80%;
 font-size: 7vh;
 color: white;
 text-align: center;
-animation:ak 2s infinite;
-
+animation:ak 5s linear infinite;
+border-left:2px solid green ;
+border-right:2px solid green ;
 }
 
 
@@ -141,16 +142,31 @@ animation:ak 2s infinite;
 @keyframes ak {
 
     0%,100%{
-        color: red;
-       transform: translatey(5px) rotate(2deg);
+        color: white;
+       /* transform: translatey(5px) rotate(2deg); */
+       padding: 0%;
+       border-left:3px solid red ;
+border-right:3px solid green ;
+border-radius: 3px;
     }
     50%{
-        color: green;
-        transform: translatey(0px) rotate(0deg);
+        color: red;
+        /* transform: translatey(0px) rotate(0deg); */
+        padding: 0%;
+        padding-left: 44.4%;
+        border-left:3px solid green ;
+border-right:3px solid red ;
+border-radius: 3px;
     }
     75%{
-        color: blueviolet;
-        transform: translatey(5px) rotate(-2deg);
+        /* color: blueviolet; */
+        /* transform: translatey(5px) rotate(-2deg); */
+        padding: 0%;
+        padding-right: 44.4%;
+        border-left:3px solid red ;
+        border-right:3px solid green ;
+        color: green;
+        border-radius: 3px;
     }
     
 }
