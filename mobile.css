@@ -12,7 +12,8 @@
     }
     .nav{
         font-size: 22px;
-        height: 10vh;
+        height: 8vh;
+        background-color: red;
     }
     .navigation{
         display: none;
@@ -28,7 +29,7 @@
         justify-content: center;
         gap: 8px;
     }
-    .bar{
+    .bar-1{
         border: 2px solid black;
         background-color: black;
         width: 100%;
@@ -36,7 +37,22 @@
         border-radius: 6px;
  
     }
-
+    .bar-2{
+        border: 2px solid black;
+        background-color: black;
+        width: 100%;
+        height: 10%;
+        border-radius: 6px;
+ 
+    }
+    .bar-3{
+        border: 2px solid black;
+        background-color: black;
+        width: 100%;
+        height: 10%;
+        border-radius: 6px;
+ 
+    }
 
 
 
