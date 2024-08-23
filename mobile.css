@@ -13,10 +13,10 @@
     .nav{
         font-size: 22px;
         height: 9vh;
-        background-color: red;
+        background-color: white;
     }
     .nav.active{
-        background-color: white;
+        background-color:lightskyblue ;
         transition: .3s;
     }
     .navigation{
@@ -111,11 +111,55 @@
     list-style: none;
     
 font-size: 3vh;
-    
+    font-weight: 800;
 
 }
 .slide ul li:hover{
 /* border: 2px solid red; */
 padding: 10px 10px;
 color: brown;
+font-weight: 800;
+}
+.icons.active{
+    display: none;
+    background-color: red;
+}
+
+.logo.active{
+
+/* border: 2px solid red; */
+width: 100%;
+font-size: 7vh;
+color: white;
+text-align: center;
+animation:ak 2s infinite;
+
+}
+
+
+
+@keyframes ak {
+
+    0%,100%{
+        color: red;
+       transform: translatey(5px) rotate(2deg);
+    }
+    50%{
+        color: green;
+        transform: translatey(0px) rotate(0deg);
+    }
+    75%{
+        color: blueviolet;
+        transform: translatey(5px) rotate(-2deg);
+    }
+    
+}
+
+
+
+
+
+
+
+
 }
