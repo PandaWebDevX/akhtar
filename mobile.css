@@ -12,6 +12,7 @@
     }
     .nav{
         font-size: 22px;
+        height: 10vh;
     }
     .navigation{
         display: none;
